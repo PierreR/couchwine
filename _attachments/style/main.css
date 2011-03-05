@@ -73,3 +73,14 @@ div.avatar img {
 #items ul {
   list-style: none;
 }
+
+table
+{
+  border-collapse:collapse;
+}
+
+table, th, td
+{
+  border: 1px solid black;
+  padding: 8px;
+}

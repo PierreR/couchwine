@@ -1,8 +1,18 @@
-<p>Hello</p>
-<ul>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Label</th>
+    <th>Year</th>
+    <th>Rating</th>
+  </tr>
   {{#wines}}
   {{#value}}
-  <li>{{name}}</li>
+  <tr>
+    <td>{{name}}</td>
+    <td>{{label}}</td>
+    <td>{{year}}</td>
+    <td>{{rating}}</td>
+  </tr>
   {{/value}}
   {{/wines}}
-</ul>
+</table>
